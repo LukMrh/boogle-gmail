@@ -1,0 +1,167 @@
+.body {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.avatar-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  background-color: WhiteSmoke;
+
+}
+
+.avatar-header-content {
+
+}
+
+a {
+  color: black;
+}
+
+.avatar-header-content span {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  float: right;
+  top: 5px;
+  right: 0;
+  margin: 5px 1px 1px -1px;
+  line-height: 10px;
+  border-left: 1px solid SlateGrey;
+}
+
+.google-search{
+  background-color: white;
+  min-height: 100%;
+  height: 100%;
+  margin: 0 auto -200px;
+}
+
+
+.image {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input {
+  position: absolute;
+  left: 0px;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 15px;
+  height: auto;
+  width: auto;
+  top: 35%;
+  left: 50%;
+  transform: translate(-35%, 0%);
+}
+
+.buttons {
+  position: relative;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  transform: translate(-20%, 0%);
+}
+
+
+.content {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  left: 0;
+  bottom: 50px;
+  background-color: WhiteSmoke;
+}
+
+.content span {
+  position: relative;
+  float: left;
+  top: 10px;
+  left: 15px;
+  margin: 5px 1px 1px -1px;
+}
+
+.links {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: WhiteSmoke;
+  border-top: 1px solid SlateGrey;
+}
+
+.left-links span {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  float: left;
+  top: 10px;
+  left: 0;
+  margin: 5px 1px 1px -1px;
+  line-height: 10px;
+  border-left: 1px solid SlateGrey;
+}
+
+.right-links span {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  float: right;
+  top: 10px;
+  right: 0;
+  margin: 5px 1px 1px -1px;
+  line-height: 10px;
+  border-left: 1px solid SlateGrey;
+}
+/*
+.left-links,
+.right-links span {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  top: 5px;
+  right: 0;
+  margin: 5px 1px 1px -1px;
+  line-height: 10px;
+  border-left: 1px solid green;
+  padding: 5px;
+}
+
+.right-links {
+
+}
+
+.right-links {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  float: right;
+  right: 0;
+  margin: 5px 1px 1px -1px;
+  line-height: 10px;
+  border-left: 1px solid green;
+  padding: 5px;
+}
+*/

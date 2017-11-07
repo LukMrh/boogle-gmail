@@ -1,0 +1,113 @@
+body {
+  background-image: url("https://i.imgur.com/KGMcQYf.jpg");
+}
+
+.box {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid WhiteSmoke;
+  z-index: 1; /* stacking order */
+  box-shadow: 0px 2px 3px grey;
+}
+
+.image {
+  position: absolute;
+  margin: 40px 0 0 20px;
+}
+
+.sign-in {
+  position: relative;
+  margin: 150px 0 0 22px;
+}
+
+h1,
+h4 {
+  color: grey;
+  background-color: white;
+}
+
+.input input {
+  background-color: transparent;
+  position: relative;
+  border: none;
+  border-bottom: 1px solid WhiteSmoke;
+  margin-left: 22px;
+  height: 30px;
+  width: 250px;
+  outline: none;
+}
+
+.dementia {
+  margin-left: 22px;
+  margin-top: 15px;
+}
+
+.dementia a {
+  display: inline-block;
+  color: DodgerBlue;
+  border-color: none;
+  text-decoration: none;
+}
+
+.more {
+  margin-left: 22px;
+}
+
+.more a {
+  display: inline-block;
+  color: DodgerBlue;
+  border-color: none;
+  text-decoration: none;
+}
+
+.more button {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-right: 22px;
+}
+
+button {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*box-shadow: 3px 3px 3px Gainsboro;*/
+  margin-left: 100px;
+}
+
+.selection {
+  display: block;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.selection a {
+  text-decoration: none;
+  color: black;
+  font-size:
+}
+
+.gmail-login {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.selection,
+.right-links {
+}
+
+.countries {
+  float: left;
+}
+
+.right-links {
+  float: right;
+}
